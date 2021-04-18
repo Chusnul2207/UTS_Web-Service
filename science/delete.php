@@ -8,9 +8,9 @@
 
 	$query = mysqli_query($conn, $sql);
 	if($query){
-		$msg = "Update data berhasil";
+		$msg = "Hapus data berhasil";
 	}else{
-		$msg = "Update data gagal"; 
+		$msg = "Hapus data gagal"; 
 	}
 	echo $msg;
 	
